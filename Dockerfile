@@ -1,6 +1,4 @@
-FROM ruby:3
-
-RUN apt-get update
+FROM ruby
 
 RUN useradd build
 
